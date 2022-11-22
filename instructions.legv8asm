@@ -1,0 +1,41 @@
+Main:
+    ADD X0, X1, X2
+    ADDI X3, X4, #-256
+    AND X5, X6, X7
+    ANDI X8, X9, #-1
+    B Main
+    B.EQ Main
+    B.NE Main
+    B.HS Main
+    B.LO Main
+    B.MI Main
+    B.PL Main
+    B.VS Main
+    B.VC Main
+    B.HI Main
+    B.LS Main
+    B.GE Main
+    B.LT Main
+    B.GT Main
+    B.LE Main
+    BL Main
+    BR LR
+    CBNZ X11, Main
+    CBZ X12, Main
+    EOR X10, X11, X12
+    EORI X13, X14, #1
+    LDUR X15, [X16, #0]
+    LSL X18, X19, #3
+    LSR X20, X21, #40
+    ORR X22, X23, X24
+    ORRI X25, X26, #189
+    STUR X27, [X28, #8]
+    SUB X29, X30, X31
+    SUBI X0, X1, #50
+    SUBIS X2, X3, #70
+    SUBS X4, X5, X6
+    MUL X7, X8, X9
+    PRNT X10
+    PRNL
+    DUMP
+    HALT
